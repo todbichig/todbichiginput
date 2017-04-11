@@ -1,4 +1,4 @@
-# todbichiginput
+# Tod Bichig Keyboards
 Mac Os X & Linux keyboards for typing Tod (Clear) script Mongolian. Tod script is used for writing Oirat Mongolian in Xinjiang and traditionally used by Kalmyks in Kalmykia.
 ### MacOs X Keyboard
 ##### Installation Instructions:
@@ -13,7 +13,7 @@ Mac Os X & Linux keyboards for typing Tod (Clear) script Mongolian. Tod script i
 ###### Step 1
 Add the keyboard td to usr/share/X11/xkb/symbols
 ###### Step 2
-Then add the following to evdev.xml, located in usr/share/X11/xkb/rules. Now restart your computer, and it should work!
+Then add the following to evdev.xml, located in usr/share/X11/xkb/rules.
 
 ```
     <layout>
@@ -25,4 +25,7 @@ Then add the following to evdev.xml, located in usr/share/X11/xkb/rules. Now res
       </configItem>
     </layout>
 ```
+###### Step 3
+Restart your computer
+
 
