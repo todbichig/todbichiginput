@@ -9,11 +9,12 @@ Mac Os X & Linux keyboards for typing Tod (Clear) script Mongolian. Tod script i
   Go to System Preferences > Keyboard > Input Sources
   Add Tod Script (It will probably be listed under 'Others')
 ### Linux Keyboard
+The Linux keyboard is for X11 using xkb
 ##### Installation Instructions:
 ###### Step 1
-Add the keyboard td to usr/share/X11/xkb/symbols
+Move the file "td" to usr/share/X11/xkb/symbols
 ###### Step 2
-Then add the following to evdev.xml, located in usr/share/X11/xkb/rules.
+Add the following to evdev.xml, located in usr/share/X11/xkb/rules.
 
 ```
     <layout>
