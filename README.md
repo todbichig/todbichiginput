@@ -30,5 +30,6 @@ Add the following to evdev.xml, located in usr/share/X11/xkb/rules.
 Restart your computer
 
 # Fonts
-Currently the only fonts that properly support Unicode Todo bichig are the Oyun series of fonts supplied by Inner Mongolia University: http://oyun.mglip.com/mongolfont/index.aspx
+Currently the only fonts that properly support Unicode Todo bichig are the Oyun series of fonts supplied by Inner Mongolia University: http://oyun.mglip.com/mongolfont/index.aspx or their other font Mongolian BT http://trans.mglip.com/css/MONG140728_BT.ttf  
 
+The only other font that is mostly correct is Mongolian Baiti, but it has bugs with displaying ᡅ.
