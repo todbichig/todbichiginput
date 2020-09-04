@@ -30,6 +30,16 @@ Add the following to evdev.xml, located in usr/share/X11/xkb/rules.
 Restart your computer
 
 # Fonts
-Currently the only fonts that properly support Unicode Todo bichig are the Oyun series of fonts supplied by Inner Mongolia University: http://oyun.mglip.com/mongolfont/index.aspx or their other font Mongolian BT http://trans.mglip.com/css/MONG140728_BT.ttf  
+Font support for properly displaying unicode Tod Bichig is still sadly very minimal.
 
-The only other font that is mostly correct is Mongolian Baiti, but it has bugs with displaying ᡅ.
+Inner Mongolia Universities Oyun series of fonts no longer support Tod Bichig, however there Mongolian BT font still seems to mostly work, it is available here: http://trans.mglip.com/css/MONG140728_BT.ttf  
+
+NotoSansMongolian has improved a lot, but still has one or two bugs. (I think I wasn't clear enough about bug #5 and bug #6)
+
+I am currently looking at other fonts that seem to work, and will post more details later.
+
+Mongolian Baiti has bugs with displaying ᡅ.
+
+Menksoft Qagan seems like it might work. I will look into that more.
+
+
